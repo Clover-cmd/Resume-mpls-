@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Day 1 - Fikri Raditia Putra</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b0e14;
+            color: #c5c9db;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .header-banner {
+            background: linear-gradient(135deg, #1f4068, #162447);
+            color: #00fff0;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            border: 1px solid #00fff0;
+            box-shadow: 0 0 15px rgba(0, 255, 240, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-banner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(0, 255, 240, 0.1) 0%, transparent 70%);
+        }
+
+        .header-banner h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 8px rgba(0, 255, 240, 0.5);
+            color: #ffffff;
+        }
+
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 15px;
+            border-top: 1px solid rgba(0, 255, 240, 0.3);
+            padding-top: 15px;
+            font-size: 15px;
+        }
+
+        .meta-item {
+            margin-bottom: 5px;
+            color: #e4e6eb;
+        }
+        
+        .meta-item strong {
+            color: #00fff0;
+        }
+
+        .section-card {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid #162447;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-left: 5px solid #ff007f;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .section-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(255, 0, 127, 0.15);
+            border-color: #ff007f;
+        }
+
+        h2 {
+            color: #ff007f;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(255, 0, 127, 0.3);
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '⚡';
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 15px;
+            text-align: justify;
+            color: #c5c9db;
+        }
+
+        .methods-container {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .method-item {
+            background: #162447;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #00fff0;
+        }
+
+        .method-item strong {
+            color: #00fff0;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .footer-credits {
+            margin-top: 35px;
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 13px;
+            text-align: center;
+            border: 1px solid #162447;
+        }
+
+        .footer-credits strong {
+            color: #e4e6eb;
+        }
+
+        .social-tags {
+            margin-top: 8px;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .social-tags a {
+            color: #ff007f;
+            text-decoration: none;
+            transition: color 0.2s, text-shadow 0.2s;
+        }
+
+        .social-tags a:hover {
+            color: #00fff0;
+            text-shadow: 0 0 5px rgba(0, 255, 240, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-banner">
+            <h1>Resume Day 1</h1>
+            <div class="meta-info">
+                <div class="meta-item">
+                    <strong>Nama:</strong> Fikri Raditia Putra<br>
+                    <strong>Kelompok:</strong> Tuanku Imam Bonjol
+                </div>
+                <div class="meta-item">
+                    <strong>Instansi:</strong> SMAN 1 Leuwiliang
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>Pembelajaran Mendalam</h2>
+            <p>Apa itu pembelajaran mendalam? Pembelajaran mendalam adalah pembelajaran yang bukan hanya menguasai sebuah materi, tetapi melatih kita untuk belajar berpikir kritis dan mengembangkan skill yang kita punya secara maksimal.</p>
+        </div>
+
+        <div class="section-card">
+            <h2>Menentukan Metode Belajar yang Efektif</h2>
+            <p>Dalam materi ini, kita diminta untuk mengisi tautan/link yang menentukan apa saja metode belajar yang sangat efektif untuk diri kita sendiri. Terdapat 3 metode utama yang disampaikan:</p>
+            
+            <div class="methods-container">
+                <div class="method-item">
+                    <strong>👁️ Metode Pengamat (Visual)</strong>
+                    <p>Metode yang sangat cocok untuk seseorang yang kuat dalam mengolah informasi berbentuk gambar, diagram, grafik, atau apa pun yang bisa dilihat langsung oleh mata.</p>
+                </div>
+                <div class="method-item">
+                    <strong>🎧 Metode Pendengar (Auditori)</strong>
+                    <p>Metode yang sangat cocok untuk orang yang menyerap informasi paling baik melalui suara, diskusi, tanya jawab, dan penjelasan lisan.</p>
+                </div>
+                <div class="method-item">
+                    <strong>🖐️ Metode Praktikal (Kinestetik)</strong>
+                    <p>Metode yang sangat cocok untuk orang yang belajar paling cepat lewat tindakan fisik, praktik langsung, bergerak, dan menyentuh objek pelajaran.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <h2>Budaya dan Kultur SMAN 1 Leuwiliang</h2>
+            <p>Materi ini membahas secara menyeluruh mengenai apa saja budaya dan kultur yang tertanam di SMAN 1 Leuwiliang. Hal ini mencakup seluruh tata tertib sekolah, mekanisme penindakan serta sanksi tegas terhadap siswa yang melanggar peraturan tersebut, serta penyampaian visi utama dari SMAN 1 Leuwiliang. Selain penjelasan materi, dilakukan juga penayangan video pengenalan lingkungan sekolah (MPLS) SMAN 1 Leuwiliang untuk memberikan gambaran nyata kepada para siswa.</p>
+        </div>
+
+        <div class="footer-credits">
+            <strong>Media Sosial & Dokumentasi:</strong>
+            <div class="social-tags">
+                <a href="https://www.instagram.com/osismpk47smanell" target="_blank">@osismpk47smanell</a> &bull; 
+                <a href="https://www.instagram.com/n4.luna" target="_blank">@n4.luna</a> &bull; 
+                <a href="https://www.instagram.com/iinnvnsaa" target="_blank">@iinnvnsaa</a> &bull; 
+                <a href="https://www.instagram.com/arsh_keiko" target="_blank">@arsh_keiko</a> &bull; 
+                <a href="https://www.instagram.com/knyccnh" target="_blank">@knyccnh</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
